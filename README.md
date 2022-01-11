@@ -1,4 +1,5 @@
-GUJLANG  is an esoteric programming language in which the program is written in gujarati!
+GUJLANG  is an esoteric programming language in which the program is written in gujarati!  
+![](images/logo-small.png)  
 # Usage
 clone the repo and add `guj` in `\bin` folder to `PATH` or to the folder you want to run it, or compile `interpreter.c` using `gcc` and use the command:
 ```
@@ -19,8 +20,9 @@ GUJLANG has nine different instructions as of now. Those are:
 ડબલ
 ```
 These are provided in the `instructions.txt`  
-Each instruction has to be printed on different lines without extra whitespaces or newlines. The last line wouldn't be executed, so it can be blank or a comment.
+Each instruction has to be printed on different lines without extra whitespaces or newlines. The last line wouldn't be executed, so it can be blank or a comment.  
 It consists of 3001 cells with value zero by default. A pointer, currently pointing at first cell. Instructions are executed line-by-line controlling the movement of the pointer.  
+![](images/image_1.png)
 
 `આગળ` command moves the pointer to the cell ahead of it and sends it to first if current pointer is last one.  
 `પાછળ` command moves the pointer to the cell  beforeit and sends it to last if current pointer is first one.  
