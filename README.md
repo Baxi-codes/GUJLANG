@@ -1,12 +1,14 @@
-GUJLANG  is an esoteric programming language in which the program is written in gujarati!  
+# GUJLANG
 ![](images/logo-small.png)  
-# Usage
+
+GUJLANG  is an esoteric programming language in which the program is written in gujarati!  
+## Usage
 clone the repo and add `guj` in `\bin` folder to `PATH` or to the folder you want to run it, or compile `interpreter.c` using `gcc` and use the command:
 ```
 guj <file>
 ```
 
-# Syntax
+## Syntax
 GUJLANG has nine different instructions as of now. Those are:
 ```
 આગળ
