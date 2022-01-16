@@ -33,7 +33,7 @@ It consists of 3001 cells with value zero by default. A pointer, currently point
 `તપાસો` command would jump to instruction with index (zero-based indexing) equal to value in `cell[0]` if current cell is zero and `cell[1]` if it is non-zero.  
 `છાપો` command prints the value in current cell in ASCII.  
 `સંપૂર્ણ છાપો` command prints the value in all non-zero cells in ASCII.  
-`ઇનપુટ` sets the value of current cell to value taken from user.  
+`ઇનપુટ` sets the value of current cell to value taken from user(integer).  
 `ડબલ` doubles the value in current cell.
 
 more instructions may be added in future (if I have time).
