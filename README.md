@@ -3,7 +3,7 @@
 
 GUJLANG  is an esoteric programming language in which the program is written in gujarati!  
 ## Usage
-clone the repo and add `guj` in `\bin` folder to `PATH` or to the folder you want to run it, or compile `interpreter.c` using `gcc` and use the command:
+clone the repo and add `\bin` folder to `PATH` or to the folder you want to run it, or compile `interpreter.c` using `gcc` and use the command:
 ```
 guj <file>
 ```
