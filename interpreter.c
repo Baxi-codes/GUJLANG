@@ -28,7 +28,7 @@ char instructions[MAX_INSTRUCTIONS][MAX_INSTRUCTION_SIZE];
 struct Cell cells[TOTAL_CELLS];
 
 
-int interpret(FILE* file){
+void interpret(FILE* file){
 	int line_count=0;
 	for (char c = getc(file); c != EOF; c = getc(file))
 		if (c == '\n') // Increment line_count if this character is newline
